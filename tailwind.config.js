@@ -25,9 +25,8 @@ export default {
       fontFamily:{
         ubuntu: ['Ubuntu', 'sans-serif']
       },
-      screens:{
-        'mobile': '375px', 
-        'desktop': '1440px',
+      backgroundImage:{
+        'sidebar-mobile': "url('/public/images/bg-sidebar-mobile.svg')"
       }
     },
   },
