@@ -11,7 +11,7 @@ export default {
           "marine-blue": 'hsl(213, 96%, 18%)',
           "purplish-blue":'hsl(243, 100%, 62%)',
           "pastel-blue": 'hsl(228, 100%, 84%)',
-          "light blue": 'hsl(206, 94%, 87%)',
+          "light-blue": 'hsl(206, 94%, 87%)',
           "strawberry red" : 'hsl(354, 84%, 57%)'
         },
         neutral:{
@@ -25,9 +25,9 @@ export default {
       fontFamily:{
         ubuntu: ['Ubuntu', 'sans-serif']
       },
-      screens:{
-        'mobile': '375px', 
-        'desktop': '1440px',
+      backgroundImage:{
+        'sidebar-mobile': "url('/images/bg-sidebar-mobile.svg')",
+        'sidebar-desktop': "url('/images/bg-sidebar-desktop.svg')"
       }
     },
   },
